@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	    <title>Cifrado Cesar</title>
+	</head>
+	<body class="fondo">
+		<br><br><br>
+		<div class="general">
+			<h1 align="center" class="titulo">Cifrado César</h1>
+			<br>
+		    <p align="center" class="explicacion">El cifrado César es un tipo de cifrado por desplazamiento, consiste en reemplazar las letras del texto <br>original por otras letras que se encuentran en un número fijo de posiciones más adelante en el alfabeto.</p>
+			<br><br><br>			
+			<p align="center" class="subtitulo">Texto a cifrar o descifrar:</p>
+		    <center>
+		    	<textarea id="cadena"></textarea>
+		    	<p> 
+			    	<input type="button" value="Cifrar" onclick="codificar()" >
+			        <input type="button" value="Decifrar" onclick="decodificar()" > 
+			    </p>
+		    </center>
+		    <br>
+		    <p align="center" class="subtitulo">Desplazamiento de las letras:</p>
+		    <center>
+	    		<textarea id="desplazamiento"></textarea>
+		    	<br><br>	    
+		    	<p class="subtitulo">Resultado final del cifrado:</p>
+		    	<div id="resultado"></div>
+		    	<br><br><br><br>
+		    	<img src="img/candado.png">		    
+			</center>
+		</div>
+	    <br><br>	    
+	    <script src="js/logica.js" ></script>
+	</body>
+</html>
+<!---
+Github del prof:
+https://github.com/demonassit/5IV6SWyA--->
