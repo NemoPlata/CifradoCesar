@@ -30,7 +30,7 @@ var cesar = cesar || (function(){
                                 //cifrando                            
                                 if(txt.substring(i,i+1) == abc[j]){                                
                                     pos = j;
-                                    pos += parseInt(desp);                                
+                                    pos += parseInt(desp) + (parseInt(desp) % 7);                                
                                     if(pos>26){                                    
                                         pos = pos - aux;                                    
                                         arraycifrado[i] = abc[pos];                                     
@@ -46,7 +46,7 @@ var cesar = cesar || (function(){
                                 //descifrando
                                 if(txt.substring(i,i+1) == abc[j]){                                
                                     pos = j;
-                                    pos -= parseInt(desp);                                
+                                    pos -= parseInt(desp) + (parseInt(desp) % 7);                                
                                     if(pos<0){
                                         pos = aux + pos;                                   
                                         arraycifrado[i] = abc[pos];                                     
