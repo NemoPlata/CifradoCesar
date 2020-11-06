@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {	
+background-color: #2C2C2C;	
+}
+
+.general {
+	color: #FFFFFF;
+}
+
+.titulo {
+	color: #2B62B1;
+	font-size: 60px;
+}
+
+.explicacion {
+	font-size: 25px;
+}
+
+.subtitulo {
+	font-size: 25px;
+}
+
+#cadena {
+	width: 300px;
+}
+
+#desplazamiento {
+	width: 45px;
+}
+
+#resultado {
+	color: #A8B7FF;
+	font-size: 35px;
+}
